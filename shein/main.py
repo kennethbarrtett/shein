@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.redirect("https://www.aliexpress.com/", True)
+        self.redirect("https://tracking.vcommission.com/aff_c?offer_id=6814&aff_id=77927", True)
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
